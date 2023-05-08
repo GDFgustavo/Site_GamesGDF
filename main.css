@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header,
+section h2,
+section h3 {
+    font-family: 'Righteous', cursive;
+    font-weight: normal;
+    font-size: 30px;
+}
+
+body,input, textarea {
+    font-family: 'Pridi', serif;
+}
+
+body {
+    background-color: rgb(132, 154, 176);
+}
+
+header {
+    padding: 25px;
+    background-color: #494949;
+    color: #000;
+}
+
+header nav li {
+    display: inline;
+    font-size: 15px;
+}
+
+header nav li a {
+    color: #000;
+    text-decoration: none;
+    margin-left: 200px;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section .store-front {
+    margin-top: -150px;
+    margin-left: 92%;
+    height: 190px;
+}
+
+.social-links {
+    padding: 2px;
+    background-color: #494949;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.social-links img {
+    height: 30px;
+    margin: -8px;
+}
+
+.social-links li,
+h3 {
+    display: inline;
+    margin-right: 150px;
+    margin-left: 10px;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+.brands img {
+    height: 50px;
+    margin-top: 150px;
+}
+
+.brands li a {
+    text-decoration: none;
+}
+
+.brands li {
+    display: block;
+}
+
+.brands {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section h3 {
+    font-size: 25px;
+    color: #000;
+    display: inline;
+    margin-right: 10px;
+}
+
+.support .container {
+    display: block;
+}
+
+.support-contact {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.address h3,
+p {
+    margin-left: 550px;
+    margin-top: 100px;
+}
+
+section h2 {
+    font-size: 60px;
+    color: #000152;
+    margin-top: 100px;
+    margin-left: 550px;
+}
+
+form input ,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 5px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 150px;
+}
+
+form button {
+    background-color: #000;
+    color: #FFF;
+    border: none;
+    cursor: pointer;
+}
+
+form input:hover {
+    background-color: rgb(81, 108, 136);
+}
+
+input:focus, textarea:focus {
+    outline-color:  rgb(81, 108, 136);
+}
